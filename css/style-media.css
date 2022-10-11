@@ -28,6 +28,22 @@
         gap: 2rem;
     }
 
+    .as {
+        position: absolute;
+        width: 40%;
+        top: 70rem;
+        right: 2rem;
+    }
+
+    .as2 {
+        position: relative;
+        padding-bottom: 12rem;
+    }
+
+    .col-xl-1-2 {
+        flex-basis: 50%;
+    }
+
     .col-xl-1-3 {
         flex-basis: calc(100% / 3);
     }
@@ -40,11 +56,18 @@
         flex-basis: 75%
     }
 
+    .card {
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+        /* height: 100%; */
+    }
+
 }
 
 @media screen and (min-width:992px) {
     html {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .row {
@@ -89,12 +112,32 @@
     }
 
     .nav-container li {
-        display: inline-block;
+        display: flex;
+        padding: 0.5rem;
+    }
+
+    .col-nav {
+        align-self: center;
+        cursor: pointer;
     }
 
     .hamburgher-menu {
         font-size: 3rem;
         display: none;
+    }
+
+    .card {
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+        /* height: 100%; */
+    }
+
+    .as {
+        position: absolute;
+        width: 40%;
+        top: 65rem;
+        right: 2rem
     }
 
 
